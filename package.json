@@ -1,0 +1,22 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "nodejs microservice with hexagonal arquitecture and docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker",
+    "hexagonal"
+  ],
+  "author": "Juan Guillermo Sierra Agreda",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^4.6.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

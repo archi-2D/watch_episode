@@ -1,0 +1,2 @@
+docker exec -it CASSANDRADB bash   #abre la consola del container
+

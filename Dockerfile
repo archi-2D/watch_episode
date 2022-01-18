@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 8069
 
-CMD ["node", "app.js"]
+ENTRYPOINT ["node", "app.js" ]
+

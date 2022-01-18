@@ -1,2 +1,5 @@
-docker exec -it CASSANDRADB bash   #abre la consola del container
+- docker exec -it CASSANDRADB bash   #abre la consola del container
+- docker run -p 8069:8069 --add-host host.docker.internal:host-gateway -e TEST=host.docker.internal --name new_container new_image
+- docker run -e DS_LICENSE=accept --name CASSANDRADB -d -p 9043:9042 datastax/dse-server:6.8.18-ubi7
+- 
 
